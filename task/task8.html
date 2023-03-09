@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+</head>
+<body>
+    8. Дано масив номерів авто. Сформувати новий масив тих, які починаються на «А»
+    <br>
+    <script>
+      
+      const carNum = ['A393DP', 'BT45034OP', 'AK342I', 'AA3442PO', 'UY42345', 'ER3424PW']
+
+    const comparator = 'A'
+    const carNumStartA = []
+    carNum.forEach((el,i)=>{
+        if(carNum[i][0]===comparator)
+        carNumStartA.push(el)
+    })
+    document.write(carNumStartA)
+    </script>
+</body>
+</html>
